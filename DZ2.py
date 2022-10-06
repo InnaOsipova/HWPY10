@@ -15,7 +15,7 @@ class Road:
         self._width = _width
     
     def mas(self):
-        print(self._width * self._length * 25 *5)
+        print(f'{self._width * self._length * 25 *5/ 1000} т.')
 
 r =Road(5000, 20)
 r.mas()
